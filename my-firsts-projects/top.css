@@ -1,0 +1,81 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+.header{
+
+min-height: 100vh;
+width: 100%;
+background-image: url("hek.jpg");
+background-position:center ;
+background-size: cover;
+position: relative;
+}
+nav {
+display: flex;
+padding:3% 5%;
+justify-content: space-between;
+align-items: center;
+}
+
+nav h1{
+
+    color: red ;
+font-size: 28px;
+text-transform: uppercase;
+
+
+}.nav-menu{
+
+
+    flex: 1;
+    text-align: right;
+}
+.nav-menu ul li{
+list-style: none;
+display: inline-block;
+margin:0px  12px;
+position: relative;
+
+
+
+
+}
+.nav-menu li a{
+ text-decoration: none;
+ color: white;
+
+font-size: 14px;
+text-transform: uppercase;
+
+}
+.nav-menu li ::after{
+content: '';
+width: 15px;
+height:5px ;
+display :block;
+margin: auto;
+position: absolute;
+bottom: -5px;
+
+}.nav-menu li:hover ::after{
+ 
+width: 100%;
+
+} 
+.profile-image{
+width: 40%;
+position: absolute;
+top: 41%;
+left: 50%;
+transform: translate(25%, -28%);
+
+
+}
+.tilledescription{
+
+color: chartreuse;
+
+}
